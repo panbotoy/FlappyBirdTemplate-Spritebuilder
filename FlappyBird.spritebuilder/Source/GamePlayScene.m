@@ -8,6 +8,7 @@
 {
     // your code here
     character = (Character*)[CCBReader load:@"Character"];
+    cloud = (Cloud*)[CCBReader load:@"Cloud"];
     [physicsNode addChild:character];
     [self addObstacle];
     timeSinceObstacle = 0.0f;
@@ -22,7 +23,6 @@
         [self addObstacle];
         timeSinceObstacle = 0.0f;
     }
-    [cloud fade];
 }
 
 // put new methods here
