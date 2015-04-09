@@ -22,8 +22,9 @@
     if (timeSinceObstacle >= 2.0f) {
         [self addObstacle];
         timeSinceObstacle = 0.0f;
+        [cloud fade];
     }
-    [cloud fade];
+   
 }
 
 // put new methods here
