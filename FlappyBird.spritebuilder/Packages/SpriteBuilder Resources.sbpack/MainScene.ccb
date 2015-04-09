@@ -157,7 +157,7 @@
 				<key>children</key>
 				<array/>
 				<key>customClass</key>
-				<string>Cloud</string>
+				<string></string>
 				<key>displayName</key>
 				<string>clouds</string>
 				<key>memberVarAssignmentName</key>
