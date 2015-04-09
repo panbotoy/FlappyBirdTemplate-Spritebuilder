@@ -6,7 +6,6 @@
 //  Copyright (c) 2015 Apportable. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
 #import "CCNode.h"
 
 @interface Cloud : CCNode

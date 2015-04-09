@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C5698361AD64B43002FD40A /* Cloud.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5698351AD64B43002FD40A /* Cloud.m */; };
+		2C5698391AD652E5002FD40A /* Cloud.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5698381AD652E5002FD40A /* Cloud.m */; };
 		8392007A18EE8E3300B6C429 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8392007918EE8E3300B6C429 /* GLKit.framework */; };
 		B71F5911188484E7003F4D28 /* iPad-old.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5907188484E7003F4D28 /* iPad-old.png */; };
 		B71F5912188484E7003F4D28 /* iPad-old@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5908188484E7003F4D28 /* iPad-old@2x.png */; };
@@ -82,8 +82,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2C5698341AD64B43002FD40A /* Cloud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cloud.h; sourceTree = "<group>"; };
-		2C5698351AD64B43002FD40A /* Cloud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cloud.m; sourceTree = "<group>"; };
+		2C5698371AD652E5002FD40A /* Cloud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Cloud.h; path = Source/Cloud.h; sourceTree = "<group>"; };
+		2C5698381AD652E5002FD40A /* Cloud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Cloud.m; path = Source/Cloud.m; sourceTree = "<group>"; };
 		8392007918EE8E3300B6C429 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		B71F5907188484E7003F4D28 /* iPad-old.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old.png"; path = "Icons/iPad-old.png"; sourceTree = "<group>"; };
 		B71F5908188484E7003F4D28 /* iPad-old@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old@2x.png"; path = "Icons/iPad-old@2x.png"; sourceTree = "<group>"; };
@@ -173,8 +173,8 @@
 				BCF66F7B19563563004691FD /* Obstacle.m */,
 				B737893D1807617C0076A88C /* AppDelegate.h */,
 				B737893E1807617C0076A88C /* AppDelegate.m */,
-				2C5698341AD64B43002FD40A /* Cloud.h */,
-				2C5698351AD64B43002FD40A /* Cloud.m */,
+				2C5698371AD652E5002FD40A /* Cloud.h */,
+				2C5698381AD652E5002FD40A /* Cloud.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -411,11 +411,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCF66F7E19563563004691FD /* Goal.m in Sources */,
-				2C5698361AD64B43002FD40A /* Cloud.m in Sources */,
 				BCF66F7D19563563004691FD /* GamePlayScene.m in Sources */,
 				B737893F1807617C0076A88C /* AppDelegate.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
 				BCF66F8019563563004691FD /* Obstacle.m in Sources */,
+				2C5698391AD652E5002FD40A /* Cloud.m in Sources */,
 				BCF66F7C19563563004691FD /* Character.m in Sources */,
 				BCF66F7F19563563004691FD /* MainScene.m in Sources */,
 			);

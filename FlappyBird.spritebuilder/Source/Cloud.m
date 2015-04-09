@@ -10,16 +10,13 @@
 
 @implementation Cloud
 
--(void)fade {
-    self.opacity -= 0.1f;
-    if (self.opacity == 0.0f) {
-        self.opacity = 1.0f;
-    }
-}
-
 - (void)didLoadFromCCB {
     self.physicsBody.collisionType = @"goal";
     self.physicsBody.sensor = NO;
+}
+
+-(void)fade {
+    self.opacity -= 0.1f;
 }
 
 @end
