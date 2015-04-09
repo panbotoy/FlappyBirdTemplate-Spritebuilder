@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Cloud : CCNode
+@interface Cloud : NSObject
 
 -(void) fade;
 
