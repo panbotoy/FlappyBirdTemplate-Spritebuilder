@@ -22,7 +22,7 @@
         [self addObstacle];
         timeSinceObstacle = 0.0f;
     }
-    [cloud.fade];
+    [cloud fade];
 }
 
 // put new methods here
