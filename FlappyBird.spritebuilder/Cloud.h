@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "CCNode.h"
 
 @interface Cloud : CCNode
 

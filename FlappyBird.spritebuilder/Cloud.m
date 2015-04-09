@@ -17,4 +17,9 @@
     self.opacity -= 0.1f;
 }
 
+- (void)didLoadFromCCB {
+    self.physicsBody.collisionType = @"goal";
+    self.physicsBody.sensor = NO;
+}
+
 @end
