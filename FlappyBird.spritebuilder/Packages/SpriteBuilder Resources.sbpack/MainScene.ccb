@@ -117,6 +117,17 @@
 					</dict>
 					<dict>
 						<key>name</key>
+						<string>normalMapSpriteFrame</string>
+						<key>type</key>
+						<string>SpriteFrame</string>
+						<key>value</key>
+						<array>
+							<string></string>
+							<string></string>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
 						<string>color</string>
 						<key>type</key>
 						<string>Color3</string>
@@ -128,6 +139,14 @@
 							<real>1</real>
 						</array>
 					</dict>
+					<dict>
+						<key>name</key>
+						<string>effects</string>
+						<key>type</key>
+						<string>EffectControl</string>
+						<key>value</key>
+						<array/>
+					</dict>
 				</array>
 			</dict>
 			<dict>
@@ -138,7 +157,7 @@
 				<key>children</key>
 				<array/>
 				<key>customClass</key>
-				<string></string>
+				<string>Cloud</string>
 				<key>displayName</key>
 				<string>clouds</string>
 				<key>memberVarAssignmentName</key>
@@ -206,6 +225,17 @@
 					</dict>
 					<dict>
 						<key>name</key>
+						<string>normalMapSpriteFrame</string>
+						<key>type</key>
+						<string>SpriteFrame</string>
+						<key>value</key>
+						<array>
+							<string></string>
+							<string></string>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
 						<string>color</string>
 						<key>type</key>
 						<string>Color3</string>
@@ -217,7 +247,17 @@
 							<real>1</real>
 						</array>
 					</dict>
+					<dict>
+						<key>name</key>
+						<string>effects</string>
+						<key>type</key>
+						<string>EffectControl</string>
+						<key>value</key>
+						<array/>
+					</dict>
 				</array>
+				<key>selected</key>
+				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
@@ -295,6 +335,17 @@
 					</dict>
 					<dict>
 						<key>name</key>
+						<string>normalMapSpriteFrame</string>
+						<key>type</key>
+						<string>SpriteFrame</string>
+						<key>value</key>
+						<array>
+							<string></string>
+							<string></string>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
 						<string>color</string>
 						<key>type</key>
 						<string>Color3</string>
@@ -305,6 +356,14 @@
 							<real>1</real>
 							<real>1</real>
 						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>effects</string>
+						<key>type</key>
+						<string>EffectControl</string>
+						<key>value</key>
+						<array/>
 					</dict>
 				</array>
 			</dict>
@@ -456,6 +515,17 @@
 							</dict>
 							<dict>
 								<key>name</key>
+								<string>normalMapSpriteFrame</string>
+								<key>type</key>
+								<string>SpriteFrame</string>
+								<key>value</key>
+								<array>
+									<string></string>
+									<string></string>
+								</array>
+							</dict>
+							<dict>
+								<key>name</key>
 								<string>color</string>
 								<key>type</key>
 								<string>Color3</string>
@@ -466,6 +536,14 @@
 									<real>1</real>
 									<real>1</real>
 								</array>
+							</dict>
+							<dict>
+								<key>name</key>
+								<string>effects</string>
+								<key>type</key>
+								<string>EffectControl</string>
+								<key>value</key>
+								<array/>
 							</dict>
 						</array>
 					</dict>
@@ -610,6 +688,17 @@
 							</dict>
 							<dict>
 								<key>name</key>
+								<string>normalMapSpriteFrame</string>
+								<key>type</key>
+								<string>SpriteFrame</string>
+								<key>value</key>
+								<array>
+									<string></string>
+									<string></string>
+								</array>
+							</dict>
+							<dict>
+								<key>name</key>
 								<string>color</string>
 								<key>type</key>
 								<string>Color3</string>
@@ -620,6 +709,14 @@
 									<real>1</real>
 									<real>1</real>
 								</array>
+							</dict>
+							<dict>
+								<key>name</key>
+								<string>effects</string>
+								<key>type</key>
+								<string>EffectControl</string>
+								<key>value</key>
+								<array/>
 							</dict>
 						</array>
 					</dict>
@@ -650,7 +747,7 @@
 						<key>value</key>
 						<array>
 							<real>0.0</real>
-							<real>9</real>
+							<real>12</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
