@@ -9,6 +9,9 @@
     // your code here
     character = (Character*)[CCBReader load:@"Character"];
     [physicsNode addChild:character];
+    [self addObstacle];
+    timeSinceOracle = 0.0f;
+    
 }
 
 -(void)update:(CCTime)delta
