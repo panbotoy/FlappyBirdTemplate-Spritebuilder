@@ -11,10 +11,10 @@
 @implementation Cloud
 
 -(void)fade {
+    self.opacity -= 0.1f;
     if (self.opacity == 0.0f) {
         self.opacity = 1.0f;
     }
-    self.opacity -= 0.1f;
 }
 
 - (void)didLoadFromCCB {
